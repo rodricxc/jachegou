@@ -1,0 +1,44 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context="br.rodricxc.Maps3.app.MainActivity">
+
+
+
+
+    <Button
+        android:id="@+id/button_lugares"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Lugares"
+        >
+    </Button>
+
+    <Button
+        android:id="@+id/button_historico"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Historico"
+        >
+    </Button>
+    <Button
+        android:id="@+id/button_meulocal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Meu local"
+        >
+    </Button>
+
+
+    <ListView
+        android:id="@+id/lugares_list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        >
+    </ListView>
+
+
+</LinearLayout>
+
