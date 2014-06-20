@@ -60,12 +60,48 @@ public class MapsActivity extends FragmentActivity implements LocationListener {
      * This should only be called once and when we are sure that {@link #mMap} is not null.
      */
     private void setUpMap() {
-        mMap.addMarker(new MarkerOptions().position(new LatLng(0, 0)).title("Marker"));
+        LocationManager locationManager;
+
+// Get the LocationManager object from the System Service LOCATION_SERVICE
+        locationManager = (LocationManager)getSystemService(LOCATION_SERVICE);
+
+// Create a criteria object needed to retrieve the provider
+        Criteria criteria = new Criteria();
+
+// Get the name of the best available provider
+        String provider = locationManager.getBestProvider(criteria, true);
+
+// We can use the provider immediately to get the last known location
+        Location location = locationManager.getLastKnownLocation(provider);
+
+// request that the provider send this activity GPS updates every 20 seconds
+        locationManager.requestLocationUpdates(provider, 20000, 0, this);
+
+        drawMarker(location);
+
+        //mMap.addMarker(new MarkerOptions().position(new LatLng(0, 0)).title("Marker"));
     }
 
     @Override
     public void onLocationChanged(Location location) {
+        if (mMap != null) {
+            drawMarker(location);
+        }
+    }
 
+    private void drawMarker(Location location){
+        mMap.clear();
+
+//  convert the location object to a LatLng object that can be used by the map API
+        LatLng currentPosition = new LatLng(location.getLatitude(), location.getLongitude());
+
+// zoom to the current location
+        mMap.animateCamera(CameraUpdateFactory.newLatLngZoom(currentPosition,16));
+
+// add a marker to the map indicating our current position
+        mMap.addMarker(new MarkerOptions()
+                .position(currentPosition)
+                .snippet("Lat:" + location.getLatitude() + "Lng:"+ location.getLongitude()));
     }
 
     @Override
