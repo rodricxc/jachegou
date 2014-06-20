@@ -31,7 +31,12 @@ public class MainActivity extends Activity {
             }
         });
 
-
+        Button buttonConfiguracoes = (Button) findViewById(R.id.prefs);
+        buttonConfiguracoes.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                goConfigs();
+            }
+        });
 
 
     }
@@ -47,5 +52,10 @@ public class MainActivity extends Activity {
         Intent i  = new Intent(this, MeuLocal.class);
         startActivity(new Intent(this, MeuLocal.class));
         return;
+    }
+
+    public void goConfigs() {
+        Intent i = new Intent(this, ConfigActivity.class);
+        startActivity(new Intent(this, ConfigActivity.class));
     }
 }
