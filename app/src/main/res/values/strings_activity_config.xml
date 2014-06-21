@@ -1,14 +1,14 @@
 <resources>
         <string name="title_activity_config">Configurações</string>
-    <string name="pref_tempo_alarme">Tempo restante de viagem para disparar o alarme aasdfasdfasdfafa</string>
-    <string name="pref_tempo_alarme_summ">Tempo restante de viagem para disparar o alarme</string>
-    <string name="pref_distancia_alarme">Distancia para alarme</string>
-    <string name="pref_distancia_alarme_summ">Distância restante de viagem para disparar o alarme</string>
+    <string name="pref_tempo">Tempo para alarme</string>
+    <string name="pref_tempo_summ">X minutos antes da chegada prevista</string>
+    <string name="pref_distancia">Distancia para alarme</string>
+    <string name="pref_distancia_summ">X Kms antes do destino</string>
     <string name="pref_vibrar">Vibrar</string>
-    <string name="pref_som_alarme">Som do alarme</string>
-    <string name="pref_som_alarme_summ">O som será reproduzido quando você estiver chegando ao destino</string>
+    <string name="pref_som">Som</string>
+    <string name="pref_som_summ">Já chegou</string>
     <string name="pref_atualizacao_gps">Atualização do GPS</string>
-    <string name="pref_atualizacao_gps_summ">Intervalo de atualização do GPS (valores pequenos irão gastar muita bateria)</string>
+    <string name="pref_atualizacao_gps_summ">A cada X segundos</string>
 
     <!-- Strings related to Settings -->
 

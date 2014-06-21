@@ -2,6 +2,7 @@ package br.rodricxc.Maps3.app;
 
 import android.annotation.TargetApi;
 import android.content.Context;
+import android.content.SharedPreferences;
 import android.content.res.Configuration;
 import android.media.Ringtone;
 import android.media.RingtoneManager;
@@ -16,6 +17,7 @@ import android.preference.PreferenceFragment;
 import android.preference.PreferenceManager;
 import android.preference.RingtonePreference;
 import android.text.TextUtils;
+import android.content.SharedPreferences.OnSharedPreferenceChangeListener;
 import br.rodricxc.Maps3.app.R;
 
 import java.util.List;
@@ -31,17 +33,44 @@ import java.util.List;
  * href="http://developer.android.com/guide/topics/ui/settings.html">Settings
  * API Guide</a> for more information on developing a Settings UI.
  */
-public class ConfigActivity extends PreferenceActivity {
+public class ConfigActivity extends PreferenceActivity implements OnSharedPreferenceChangeListener {
     /**
      * Determines whether to always show the simplified settings UI, where
      * settings are presented in a single list. When false, settings are shown
      * as a master/detail two-pane view on tablets. When true, a single pane is
      * shown on tablets.
      */
+
+    public static final String KEY_PREF_TEMPO = "pref_tempo";
+    public static final String KEY_PREF_DISTANCIA = "pref_distancia";
+    public static final String KEY_PREF_VIBRAR = "pref_vibrar";
+    public static final String KEY_PREF_SOM = "pref_som";
+    public static final String KEY_PREF_ATUALIZACAO_GPS = "pref_atualizacao_gps";
+
     @Override
     public void onCreate (Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         addPreferencesFromResource(R.xml.preferences);
+    }
+
+    @Override
+    public void onSharedPreferenceChanged(SharedPreferences sharedPreferences, String key) {
+        /*if (key.equals(KEY_PREF_TEMPO)) {
+            Preference connectionPref = findPreference(key);
+            connectionPref.setSummary(sharedPreferences.getInt(key, 0));
+        } else if (key.equals(KEY_PREF_DISTANCIA)) {
+            Preference connectionPref = findPreference(key);
+            connectionPref.setSummary(sharedPreferences.getInt(key, 0));
+        } else if (key.equals(KEY_PREF_VIBRAR)) {
+            Preference connectionPref = findPreference(key);
+            connectionPref.setSummary(sharedPreferences.getString(key, "false"));
+        } else if (key.equals(KEY_PREF_SOM)) {
+            Preference connectionPref = findPreference(key);
+            connectionPref.setSummary(sharedPreferences.getString(key, ""));
+        } else if (key.equals(KEY_PREF_ATUALIZACAO_GPS)) {
+            Preference connectionPref = findPreference(key);
+            connectionPref.setSummary(sharedPreferences.getInt(key, 0));
+        }*/
     }
 /*
     private static final boolean ALWAYS_SIMPLE_PREFS = false;
