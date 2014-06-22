@@ -1,6 +1,7 @@
 package br.rodricxc.Maps3.app;
 
 import android.annotation.TargetApi;
+import android.app.ActionBar;
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.content.res.Configuration;
@@ -18,6 +19,9 @@ import android.preference.PreferenceManager;
 import android.preference.RingtonePreference;
 import android.text.TextUtils;
 import android.content.SharedPreferences.OnSharedPreferenceChangeListener;
+import android.util.Log;
+import android.view.MenuItem;
+
 import br.rodricxc.Maps3.app.R;
 
 import java.util.List;
@@ -51,17 +55,42 @@ public class ConfigActivity extends PreferenceActivity implements OnSharedPrefer
     public void onCreate (Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         addPreferencesFromResource(R.xml.preferences);
+        ActionBar actionBar = getActionBar();
+        actionBar.setDisplayHomeAsUpEnabled(true);
     }
-
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+            case android.R.id.home:
+                onBackPressed();
+                return true;
+        }
+        return super.onOptionsItemSelected(item);
+    }
     @Override
     public void onSharedPreferenceChanged(SharedPreferences sharedPreferences, String key) {
-        /*if (key.equals(KEY_PREF_TEMPO)) {
+        if (key.equals(KEY_PREF_TEMPO)) {
+            Log.d("asdf", "modificado o tempo");
             Preference connectionPref = findPreference(key);
-            connectionPref.setSummary(sharedPreferences.getInt(key, 0));
+            Integer tempo = Integer.parseInt(sharedPreferences.getString(ConfigActivity.KEY_PREF_TEMPO, "0"));
+            String string = tempo.toString();
+            if (tempo.equals(1)) {
+                string += " minuto antes da chegada prevista";
+            } else {
+                string += " minutos antes da chegada prevista";
+            }
+            connectionPref.setSummary(string);
         } else if (key.equals(KEY_PREF_DISTANCIA)) {
             Preference connectionPref = findPreference(key);
-            connectionPref.setSummary(sharedPreferences.getInt(key, 0));
-        } else if (key.equals(KEY_PREF_VIBRAR)) {
+            Integer distancia = Integer.parseInt(sharedPreferences.getString(ConfigActivity.KEY_PREF_DISTANCIA, "0"));
+            String string = distancia.toString();
+            if (distancia.equals(1)) {
+                string += " Km antes do destino";
+            } else {
+                string += " Kms antes do destino";
+            }
+            connectionPref.setSummary(string);
+        }/* else if (key.equals(KEY_PREF_VIBRAR)) {
             Preference connectionPref = findPreference(key);
             connectionPref.setSummary(sharedPreferences.getString(key, "false"));
         } else if (key.equals(KEY_PREF_SOM)) {
