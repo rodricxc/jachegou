@@ -12,9 +12,6 @@ import android.widget.ArrayAdapter;
 import android.widget.ListAdapter;
 import android.widget.TextView;
 
-
-import br.rodricxc.Maps3.app.dummy.DummyContent;
-
 /**
  * A fragment representing a list of Items.
  * <p />

@@ -5,29 +5,12 @@
     android:layout_height="fill_parent"
     tools:context="br.rodricxc.Maps3.app.MainActivity">
 
-
-    <LinearLayout
-        android:orientation="horizontal"
+    <FrameLayout
+        android:id="@+id/fragmentContainer"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:layout_gravity="center_horizontal">
-
-        <Button
-            android:id="@+id/button_lugares"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Lugares"
-            >
-        </Button>
-
-        <Button
-            android:id="@+id/button_historico"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Historico"
-            >
-        </Button>
-    </LinearLayout>
+    </FrameLayout>
 
 </LinearLayout>
 

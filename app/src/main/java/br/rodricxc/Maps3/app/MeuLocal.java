@@ -69,9 +69,9 @@ public class MeuLocal extends ActionBarActivity {
         // Handle presses on the action bar items
         switch (item.getItemId()) {
             case R.id.action_save:
+                startActivity(new Intent(this, MapsActivity.class));
                 return true;
             case R.id.action_settings:
-                Intent i = new Intent(this, ConfigActivity.class);
                 startActivity(new Intent(this, ConfigActivity.class));
                 return true;
             default:
