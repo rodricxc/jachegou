@@ -1,7 +1,8 @@
 package br.rodricxc.Maps3.app;
 
 import android.annotation.TargetApi;
-import android.app.ActionBar;
+import android.support.v7.app.ActionBar;
+import android.support.v7.app.ActionBarActivity;
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.content.res.Configuration;
@@ -55,7 +56,7 @@ public class ConfigActivity extends PreferenceActivity implements OnSharedPrefer
     public void onCreate (Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         addPreferencesFromResource(R.xml.preferences);
-        ActionBar actionBar = getActionBar();
+        android.app.ActionBar actionBar = getActionBar();
         actionBar.setDisplayHomeAsUpEnabled(true);
     }
     @Override
