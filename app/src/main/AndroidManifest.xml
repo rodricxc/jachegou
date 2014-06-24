@@ -28,8 +28,8 @@
             android:label="@string/title_activity_maps" >
         </activity>
         <activity
-            android:name=".MeuLocal"
-            android:label="@string/title_activity_meu_local" >
+            android:name=".NovoLocal"
+            android:label="@string/title_activity_novo_local" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="br.rodricxc.Maps3.app.MainActivity" />
