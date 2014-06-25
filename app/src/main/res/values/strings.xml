@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Já Chegou?</string>
+    <string name="title_activity_main">Já Chegou?</string>
+    <string name="action_add">Adicionar</string>
+    <string name="action_save">Salvar</string>
+    <string name="action_settings">Configurações</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_novo_lugar">Novo Lugar</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="novo_lugar_nome">Nome. Ex: Faculdade</string>
+    <string name="novo_lugar_busca_endereco">Endereço. Ex: Praça Frei Orlando, 170, Centro, São João del-Rei</string>
+    <string name="lugares_vazio">\nUtilize o botão + para adicionar lugares</string>
+    <string name="lugar_desconhecido">Não foi possível encontrar este lugar. Verifique o campo <i>Endereço</i> e faça uma nova busca</string>
+    <string name="conexao_internet">Por favor, verifique sua conexão com a internet</string>
+</resources>

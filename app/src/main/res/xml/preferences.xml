@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditTextPreference
+        android:key="pref_tempo"
+        android:title="@string/pref_tempo"
+        android:summary="@string/pref_tempo_summ"
+        android:inputType="numberSigned"
+        android:defaultValue="5"/>
+    <EditTextPreference
+        android:key="pref_distancia"
+        android:title="@string/pref_distancia"
+        android:summary="@string/pref_distancia_summ"
+        android:inputType="numberSigned"
+        android:defaultValue="2" />
+    <CheckBoxPreference
+        android:key="pref_vibrar"
+        android:title="@string/pref_vibrar"
+        android:defaultValue="true"/>
+    <Preference
+        android:key="pref_som_alarme"
+        android:title="@string/pref_som"
+        android:defaultValue="ja_chegou" />
+    <EditTextPreference
+        android:key="pref_atualizacao_gps"
+        android:title="@string/pref_atualizacao_gps"
+        android:summary="@string/pref_atualizacao_gps_summ"
+        android:inputType="numberSigned"
+        android:defaultValue="30" />
+</PreferenceScreen>
