@@ -26,4 +26,4 @@
         android:summary="@string/pref_atualizacao_gps_summ"
         android:inputType="numberSigned"
         android:defaultValue="30" />
-</PreferenceScreen><!-- From: file:/home/rodricxc/AndroidStudioProjects/jachegou-master/app/src/main/res/xml/preferences.xml -->
+</PreferenceScreen><!-- From: file:/home/rodricxc/AndroidStudioProjects/jachegou/app/src/main/res/xml/preferences.xml -->

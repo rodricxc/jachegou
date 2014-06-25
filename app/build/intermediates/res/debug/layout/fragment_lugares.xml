@@ -16,4 +16,4 @@
         android:layout_height="match_parent"
         android:text="@string/lugares_vazio"
         android:gravity="center_horizontal" />
-</LinearLayout><!-- From: file:/home/rodricxc/AndroidStudioProjects/jachegou-master/app/src/main/res/layout/fragment_lugares.xml -->
+</LinearLayout><!-- From: file:/home/rodricxc/AndroidStudioProjects/jachegou/app/src/main/res/layout/fragment_lugares.xml -->

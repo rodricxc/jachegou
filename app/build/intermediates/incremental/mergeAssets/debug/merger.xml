@@ -2,16 +2,16 @@
 <merger version="2" >
 
     <dataSet config="19.1.0" >
-        <source path="/home/rodricxc/AndroidStudioProjects/jachegou-master/build/intermediates/exploded-aar/com.android.support/gridlayout-v7/19.1.0/assets" />
+        <source path="/home/rodricxc/AndroidStudioProjects/jachegou/build/intermediates/exploded-aar/com.android.support/gridlayout-v7/19.1.0/assets" />
     </dataSet>
     <dataSet config="19.1.0" >
-        <source path="/home/rodricxc/AndroidStudioProjects/jachegou-master/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/assets" />
+        <source path="/home/rodricxc/AndroidStudioProjects/jachegou/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/assets" />
     </dataSet>
     <dataSet config="main" >
-        <source path="/home/rodricxc/AndroidStudioProjects/jachegou-master/app/src/main/assets" />
+        <source path="/home/rodricxc/AndroidStudioProjects/jachegou/app/src/main/assets" />
     </dataSet>
     <dataSet config="debug" >
-        <source path="/home/rodricxc/AndroidStudioProjects/jachegou-master/app/src/debug/assets" />
+        <source path="/home/rodricxc/AndroidStudioProjects/jachegou/app/src/debug/assets" />
     </dataSet>
 
 </merger>

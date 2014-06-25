@@ -17,8 +17,11 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 import com.google.android.gms.internal.cu;
+import com.google.android.gms.maps.CameraUpdate;
+import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.SupportMapFragment;
+import com.google.android.gms.maps.model.CameraPosition;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
@@ -135,7 +138,11 @@ public class NovoLugar extends ActionBarActivity {
         if (marker != null) {
             marker.remove();
         }
+        CameraPosition cPos = new CameraPosition.Builder().target(latLng).zoom(15).build();
+        CameraUpdate update = CameraUpdateFactory.newCameraPosition(cPos);
+
         marker = map.addMarker(markerOptions);
+        map.moveCamera(update);
         marker.showInfoWindow();
     }
 

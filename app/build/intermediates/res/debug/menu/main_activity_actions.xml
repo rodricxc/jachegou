@@ -9,4 +9,4 @@
         android:icon="@drawable/ic_action_settings"
         android:title="@string/action_settings"
         app:showAsAction="ifRoom|withText" />
-</menu><!-- From: file:/home/rodricxc/AndroidStudioProjects/jachegou-master/app/src/main/res/menu/main_activity_actions.xml -->
+</menu><!-- From: file:/home/rodricxc/AndroidStudioProjects/jachegou/app/src/main/res/menu/main_activity_actions.xml -->

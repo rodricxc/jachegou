@@ -16,4 +16,4 @@
         android:layout_height="wrap_content"
         android:text="Endereço"
         android:textAppearance="@android:style/TextAppearance.DeviceDefault.Small" />
-</LinearLayout><!-- From: file:/home/rodricxc/AndroidStudioProjects/jachegou-master/app/src/main/res/layout/fragment_lugares_grid.xml -->
+</LinearLayout><!-- From: file:/home/rodricxc/AndroidStudioProjects/jachegou/app/src/main/res/layout/fragment_lugares_grid.xml -->

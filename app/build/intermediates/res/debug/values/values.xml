@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
 
-    <!-- From: file:/home/rodricxc/AndroidStudioProjects/jachegou-master/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/values/values.xml -->
+    <!-- From: file:/home/rodricxc/AndroidStudioProjects/jachegou/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/values/values.xml -->
     <eat-comment />
 
     <attr name="actionBarDivider" format="reference" />
@@ -78,7 +78,7 @@
     <color name="abc_search_url_text_normal">#7fa87f</color>
     <color name="abc_search_url_text_pressed">@android:color/black</color>
     <color name="abc_search_url_text_selected">@android:color/black</color>
-    <!-- From: file:/home/rodricxc/AndroidStudioProjects/jachegou-master/build/intermediates/exploded-aar/com.google.android.gms/play-services/4.2.42/res/values/colors.xml -->
+    <!-- From: file:/home/rodricxc/AndroidStudioProjects/jachegou/build/intermediates/exploded-aar/com.google.android.gms/play-services/4.2.42/res/values/colors.xml -->
     <eat-comment />
 
     <color name="common_action_bar_splitter">#d2d2d2</color>
@@ -91,7 +91,7 @@
     <color name="common_signin_btn_light_text_disabled">#FFAAAAAA</color>
     <color name="common_signin_btn_light_text_focused">#FF737373</color>
     <color name="common_signin_btn_light_text_pressed">@android:color/white</color>
-    <!-- From: file:/home/rodricxc/AndroidStudioProjects/jachegou-master/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/values/values.xml -->
+    <!-- From: file:/home/rodricxc/AndroidStudioProjects/jachegou/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/values/values.xml -->
     <eat-comment />
 
     <declare-styleable name="ActionBar">
@@ -219,7 +219,7 @@
         -->
         <attr name="expandActivityOverflowButtonDrawable" format="reference" />
     </declare-styleable>
-    <!-- From: file:/home/rodricxc/AndroidStudioProjects/jachegou-master/build/intermediates/exploded-aar/com.google.android.gms/play-services/4.2.42/res/values/ads_attrs.xml -->
+    <!-- From: file:/home/rodricxc/AndroidStudioProjects/jachegou/build/intermediates/exploded-aar/com.google.android.gms/play-services/4.2.42/res/values/ads_attrs.xml -->
     <eat-comment />
 
     <declare-styleable name="AdsAttrs">
@@ -241,7 +241,7 @@
         <!-- The ad unit ID. -->
         <attr name="adUnitId" format="string" />
     </declare-styleable>
-    <!-- From: file:/home/rodricxc/AndroidStudioProjects/jachegou-master/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/values/values.xml -->
+    <!-- From: file:/home/rodricxc/AndroidStudioProjects/jachegou/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/values/values.xml -->
     <eat-comment />
 
     <declare-styleable name="CompatTextView">
@@ -249,7 +249,7 @@
         <!-- Present the text in ALL CAPS. This may use a small-caps form when available. -->
         <attr name="textAllCaps" format="reference|boolean" />
     </declare-styleable>
-    <!-- From: file:/home/rodricxc/AndroidStudioProjects/jachegou-master/build/intermediates/exploded-aar/com.android.support/gridlayout-v7/19.1.0/res/values/values.xml -->
+    <!-- From: file:/home/rodricxc/AndroidStudioProjects/jachegou/build/intermediates/exploded-aar/com.android.support/gridlayout-v7/19.1.0/res/values/values.xml -->
     <eat-comment />
 
     <declare-styleable name="GridLayout">
@@ -435,7 +435,7 @@
             <flag name="end" value="0x00800005" />
         </attr>
     </declare-styleable>
-    <!-- From: file:/home/rodricxc/AndroidStudioProjects/jachegou-master/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/values/values.xml -->
+    <!-- From: file:/home/rodricxc/AndroidStudioProjects/jachegou/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/values/values.xml -->
     <eat-comment />
 
     <declare-styleable name="LinearLayoutICS">
@@ -452,7 +452,7 @@
         <!-- Size of padding on either end of a divider. -->
         <attr name="dividerPadding" format="dimension" />
     </declare-styleable>
-    <!-- From: file:/home/rodricxc/AndroidStudioProjects/jachegou-master/build/intermediates/exploded-aar/com.google.android.gms/play-services/4.2.42/res/values/maps_attrs.xml -->
+    <!-- From: file:/home/rodricxc/AndroidStudioProjects/jachegou/build/intermediates/exploded-aar/com.google.android.gms/play-services/4.2.42/res/values/maps_attrs.xml -->
     <eat-comment />
 
     <declare-styleable name="MapAttrs">
@@ -477,7 +477,7 @@
         <attr name="useViewLifecycle" format="boolean" />
         <attr name="zOrderOnTop" format="boolean" />
     </declare-styleable>
-    <!-- From: file:/home/rodricxc/AndroidStudioProjects/jachegou-master/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/values/values.xml -->
+    <!-- From: file:/home/rodricxc/AndroidStudioProjects/jachegou/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/values/values.xml -->
     <eat-comment />
 
     <declare-styleable name="MenuGroup">
@@ -765,16 +765,16 @@
     <dimen name="abc_panel_menu_list_width">296dp</dimen>
     <dimen name="abc_search_view_preferred_width">320dip</dimen>
     <dimen name="abc_search_view_text_min_width">160dip</dimen>
-    <!-- From: file:/home/rodricxc/AndroidStudioProjects/jachegou-master/app/src/main/res/values/dimens.xml -->
+    <!-- From: file:/home/rodricxc/AndroidStudioProjects/jachegou/app/src/main/res/values/dimens.xml -->
     <eat-comment />
 
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
-    <!-- From: file:/home/rodricxc/AndroidStudioProjects/jachegou-master/build/intermediates/exploded-aar/com.android.support/gridlayout-v7/19.1.0/res/values/values.xml -->
+    <!-- From: file:/home/rodricxc/AndroidStudioProjects/jachegou/build/intermediates/exploded-aar/com.android.support/gridlayout-v7/19.1.0/res/values/values.xml -->
     <eat-comment />
 
     <dimen name="default_gap">16dip</dimen>
-    <!-- From: file:/home/rodricxc/AndroidStudioProjects/jachegou-master/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/values/values.xml -->
+    <!-- From: file:/home/rodricxc/AndroidStudioProjects/jachegou/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/values/values.xml -->
     <eat-comment />
 
     <item name="dialog_fixed_height_major" type="dimen">80%</item>
@@ -789,11 +789,11 @@
     <item name="progress_horizontal" type="id"/>
 
     <integer name="abc_max_action_buttons">2</integer>
-    <!-- From: file:/home/rodricxc/AndroidStudioProjects/jachegou-master/build/intermediates/exploded-aar/com.google.android.gms/play-services/4.2.42/res/values/version.xml -->
+    <!-- From: file:/home/rodricxc/AndroidStudioProjects/jachegou/build/intermediates/exploded-aar/com.google.android.gms/play-services/4.2.42/res/values/version.xml -->
     <eat-comment />
 
     <integer name="google_play_services_version">4242000</integer>
-    <!-- From: file:/home/rodricxc/AndroidStudioProjects/jachegou-master/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/values/values.xml -->
+    <!-- From: file:/home/rodricxc/AndroidStudioProjects/jachegou/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/values/values.xml -->
     <eat-comment />
 
     <string name="abc_action_bar_home_description">Navigate home</string>
@@ -809,14 +809,14 @@
     <string name="abc_searchview_description_voice">Voice search</string>
     <string name="abc_shareactionprovider_share_with">Share with</string>
     <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
-    <!-- From: file:/home/rodricxc/AndroidStudioProjects/jachegou-master/app/src/main/res/values/strings.xml -->
+    <!-- From: file:/home/rodricxc/AndroidStudioProjects/jachegou/app/src/main/res/values/strings.xml -->
     <eat-comment />
 
     <string name="action_add">Adicionar</string>
     <string name="action_save">Salvar</string>
     <string name="action_settings">Configurações</string>
     <string name="app_name">Já Chegou?</string>
-    <!-- From: file:/home/rodricxc/AndroidStudioProjects/jachegou-master/build/intermediates/exploded-aar/com.google.android.gms/play-services/4.2.42/res/values/strings.xml -->
+    <!-- From: file:/home/rodricxc/AndroidStudioProjects/jachegou/build/intermediates/exploded-aar/com.google.android.gms/play-services/4.2.42/res/values/strings.xml -->
     <eat-comment />
 
     <string name="auth_client_needs_enabling_title">      An application requires Google Play Services to be enabled.</string>
@@ -845,11 +845,11 @@
     <string name="common_google_play_services_update_title" msgid="1788179980625863495">Update Google Play services</string>
     <string name="common_signin_button_text">Sign in</string>
     <string name="common_signin_button_text_long">Sign in with Google</string>
-    <!-- From: file:/home/rodricxc/AndroidStudioProjects/jachegou-master/app/src/main/res/values/strings.xml -->
+    <!-- From: file:/home/rodricxc/AndroidStudioProjects/jachegou/app/src/main/res/values/strings.xml -->
     <eat-comment />
 
     <string name="conexao_internet">Por favor, verifique sua conexão com a internet</string>
-    <!-- From: file:/home/rodricxc/AndroidStudioProjects/jachegou-master/app/src/debug/res/values/google_maps_api.xml -->
+    <!-- From: file:/home/rodricxc/AndroidStudioProjects/jachegou/app/src/debug/res/values/google_maps_api.xml -->
     <eat-comment />
 
     <string name="google_maps_key">YOUR_KEY_HERE</string>
@@ -865,7 +865,7 @@
     Once you have your key, replace the "google_maps_key" string in this file.
         -->
     </string>
-    <!-- From: file:/home/rodricxc/AndroidStudioProjects/jachegou-master/app/src/main/res/values/strings.xml -->
+    <!-- From: file:/home/rodricxc/AndroidStudioProjects/jachegou/app/src/main/res/values/strings.xml -->
     <eat-comment />
 
     <string name="hello_blank_fragment">Hello blank fragment</string>
@@ -874,7 +874,7 @@
     <string name="lugares_vazio">\nUtilize o botão + para adicionar lugares</string>
     <string name="novo_lugar_busca_endereco">Endereço. Ex: Praça Frei Orlando, 170, Centro, São João del-Rei</string>
     <string name="novo_lugar_nome">Nome. Ex: Faculdade</string>
-    <!-- From: file:/home/rodricxc/AndroidStudioProjects/jachegou-master/app/src/main/res/values/strings_activity_config.xml -->
+    <!-- From: file:/home/rodricxc/AndroidStudioProjects/jachegou/app/src/main/res/values/strings_activity_config.xml -->
     <eat-comment />
 
     <string name="pref_atualizacao_gps">Atualização do GPS</string>
@@ -887,19 +887,19 @@
     <string name="pref_tempo_summ">X minutos antes da chegada prevista</string>
     <string name="pref_vibrar">Vibrar</string>
     <string name="title_activity_config">Configurações</string>
-    <!-- From: file:/home/rodricxc/AndroidStudioProjects/jachegou-master/app/src/main/res/values/strings.xml -->
+    <!-- From: file:/home/rodricxc/AndroidStudioProjects/jachegou/app/src/main/res/values/strings.xml -->
     <eat-comment />
 
     <string name="title_activity_main">Já Chegou?</string>
     <string name="title_activity_maps">Map</string>
     <string name="title_activity_novo_lugar">Novo Lugar</string>
-    <!-- From: file:/home/rodricxc/AndroidStudioProjects/jachegou-master/app/src/main/res/values/styles.xml -->
+    <!-- From: file:/home/rodricxc/AndroidStudioProjects/jachegou/app/src/main/res/values/styles.xml -->
     <eat-comment />
 
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Customize your theme here. -->
     </style>
-    <!-- From: file:/home/rodricxc/AndroidStudioProjects/jachegou-master/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/values/values.xml -->
+    <!-- From: file:/home/rodricxc/AndroidStudioProjects/jachegou/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/values/values.xml -->
     <eat-comment />
 
     <style name="TextAppearance.AppCompat.Base.CompactMenu.Dialog" parent="android:TextAppearance.Medium">
